@@ -22,3 +22,6 @@ require("aerial").setup({
 })
 vim.keymap.set("n", "<leader>a", "<cmd>AerialToggle!<CR>")
 
+-- enable tabs for editor
+vim.opt.termguicolors = true
+require("bufferline").setup {}
